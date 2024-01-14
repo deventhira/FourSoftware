@@ -1,0 +1,13 @@
+.about{
+    color: rgb(243, 220, 9);
+    background-color: darkcyan;
+}
+
+.box{
+    border: 2px darkorange solid;
+    text-align:center;
+}
+
+.comname{
+    color: yellow;
+}
