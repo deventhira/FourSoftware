@@ -13,36 +13,27 @@
 
 <body>
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-dark-subtle py-2 sticky-top">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg bg-dark-subtle py-1 sticky-top">
+    <div class="container-fluid">
       <a class="navbar-brand fs-3 comname">FOUR SOFTWARE</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+        <ul class="navbar-nav ms-auto mb-1 mb-lg-0 gap-2">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
+            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="/about.html">ABOUT</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link" href="#Services">
               SERVICES
             </a>
-            <ul class="dropdown-menu bg-warning-subtle">
-              <li><a class="dropdown-item" href="/services.html">WEB DEVELOPMENT</a></li>
-              <li><a class="dropdown-item" href="/services.html">PROFILE DESIGN</a></li>
-              <li><a class="dropdown-item" href="/services.html">LOGO DESIGN</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="/services.html">WEB HOSTING</a></li>
-            </ul>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html">CONTACT</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
           </li>
         </ul>
@@ -50,106 +41,132 @@
     </div>
   </nav>
   <!--image show-->
-  <div class="containe py-2 text-center ">
-    <div class="row">
-      <div class="col-sm-6 col-mb-9 col-lg-12">
-        <img src="./logo.png" class="img-fluid w-auto">
-      </div>
-    </div>
-  </div>
+<section id="home" class="text-uppercase">
+  <p>web development</p>
+  <p>personal design</p>
+  <p>logo design</p>
+  <p>web host</p>
+</section>
   <!-- about us -->
-  <div class="containe">
-    <div class="row">
-      <div class="col-md12 text-center bg-success-subtle py-3">
-        <h3>
-          ABOUT
-        </h3>
-      </div>
-      <div class="col py-2">
-        <p>
-        <h5>I have been working as a web developer for quite some time now. I believe I am a very ambitious person who
-          loves to work on making the website work well. Working on the web is my passion as I love to work on exciting
-          projects. This is the field I get to express my creativity.</p>
-        </h5>
-      </div>
+<section id="about" class="py-5">
+  <div class="circle">
+    <img src="/about.png" alt="about">
+    <div class="content">
+      <h1 >ABOUT</h1>
+      <p>I have been working as a web developer for quite some time now. I believe I am a very ambitious person who loves to work on making the website work well. Working on the web is my passion as I love to work on exciting projects. This is the field I get to express my creativity.
+        software developer skills are the technicak capabilities an individual learns to create successful programs and applications.they typically involve using mathematical knowledge and a capacity for problem-solving to write source code,which is the sequwnce of words and symbols that allow a program to functions!.</p>
     </div>
   </div>
+</section>
   <!-- Overall Services-->
-  <div class="containe">
-    <div class="row">
-      <div class="col-md12 text-center py-4 text-bg-info">
-        <h3>Overall Services</h3>
-      </div>
-      <!-- web development -->
-      <div class="card mt-3 me-2 py-2 bg-primary-subtle ">
-        <div class="row g-2">
-          <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
-            <img src="/web.jpg" class="img-fluid w-auto" alt="profile">
-          </div>
-          <div class="col-mt-3 ">
-            <div class="card-body">
-              <h4 class="card-title text-uppercase text-center"><b>web developmen</h4></b>
-              <p class="card-text">Web development is the work involved in developing a website for the Internet (World
-                Wide Web) or an intranet (a private network).while coding involves translating these designs into a
-                functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated web
-                developers translate the designs to code.</p>
+  <section id="Services">
+    <div class="containe">
+      <div class="row">
+        <div class="col-md12 text-center py-4 text-bg-info">
+          <h3>Overall Services</h3>
+        </div>
+        <!-- web development -->
+        <div class="card mt-3 me-2 py-2 bg-primary-subtle ">
+          <div class="row g-2">
+            <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
+              <img src="/web.jpg" class="img-fluid w-auto" alt="profile">
+            </div>
+            <div class="col-mt-3 ">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-center"><b>web developmen</h4></b>
+                <p class="card-text">Web development is the work involved in developing a website for the Internet (World
+                  Wide Web) or an intranet (a private network).while coding involves translating these designs into a
+                  functional website using programming languages like HTML, CSS, and JavaScript. Typically, dedicated web
+                  developers translate the designs to code.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- profile design -->
-      <div class="card mt-3 me-2 py-2 bg-secondary ">
-        <div class="row g-2">
-          <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
-            <img src="/profile.png" class="img-fluid w-auto" alt="profile">
-          </div>
-          <div class="col-mt-3 ">
-            <div class="card-body">
-              <h4 class="card-title text-uppercase text-center text-white"><b>personal design</h4></b>
-              <p class="card-text text-white">A web designer is responsible for creating the design and layout of a
-                website or web pages. Unlike web developers, who specialise in creating new websites' structures and the
-                code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout
-                and its usability.</p>
+        <!-- profile design -->
+        <div class="card mt-3 me-2 py-2 bg-secondary ">
+          <div class="row g-2">
+            <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
+              <img src="/profile.png" class="img-fluid w-auto" alt="profile">
+            </div>
+            <div class="col-mt-3 ">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-center text-white"><b>personal design</h4></b>
+                <p class="card-text text-white">A web designer is responsible for creating the design and layout of a
+                  website or web pages. Unlike web developers, who specialise in creating new websites' structures and the
+                  code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout
+                  and its usability.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- logo design -->
-      <div class="card mt-3 me-2 py-2 bg-warning-subtle">
-        <div class="row g-2">
-          <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
-            <img src="/logodesign.png" class="img-fluid w-auto logo" alt="logo">
-          </div>
-          <div class="col-mt-3 ">
-            <div class="card-body">
-              <h4 class="card-title text-uppercase text-center"><b>logo design</h4></b>
-              <p class="card-text">A logo is a symbol or design used to identify a company or organization, as well as
-                its products, services, employees, etc. In its simplest definition, a logo identifies. It's how your
-                company is recognized and remembered among others. It also functions as the face of your business.</p>
+        <!-- logo design -->
+        <div class="card mt-3 me-2 py-2 bg-warning-subtle">
+          <div class="row g-2">
+            <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
+              <img src="/logo design.png" class="img-fluid w-auto logo" alt="logo">
+            </div>
+            <div class="col-mt-3 ">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-center"><b>logo design</h4></b>
+                <p class="card-text">A logo is a symbol or design used to identify a company or organization, as well as
+                  its products, services, employees, etc. In its simplest definition, a logo identifies. It's how your
+                  company is recognized and remembered among others. It also functions as the face of your business.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- web host -->
-      <div class="card mt-3 me-2 py-2 bg-danger-subtle">
-        <div class="row g-2">
-          <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
-            <img src="/web host.jpg" class="img-fluid w-auto" alt="web hosting">
-          </div>
-          <div class="col-mt-3 ">
-            <div class="card-body">
-              <h4 class="card-title text-uppercase text-center"><b>web hosting</h4></b>
-              <p class="card-text">Web hosting is a service that allows you to publish your website on the internet. It
-                involves storing all your website files on a server and providing a way for people to access those files
-                through a web browser. Think of it like renting a space on the internet. When you sign up for a web
-                hosting service, you basically rent some space on a physical server where you can store all the files
-                and data necessary for your website to work properly.</p>
+        <!-- web host -->
+        <div class="card mt-3 me-2 py-2 bg-danger-subtle">
+          <div class="row g-2">
+            <div class="col-sm-6 col-mb-9 col-lg-12 px-4 mt-3 text-center ">
+              <img src="/web host.jpg" class="img-fluid " alt="web hosting">
+            </div>
+            <div class="col-mt-3 ">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase text-center"><b>web hosting</h4></b>
+                <p class="card-text">Web hosting is a service that allows you to publish your website on the internet. It
+                  involves storing all your website files on a server and providing a way for people to access those files
+                  through a web browser. Think of it like renting a space on the internet. When you sign up for a web
+                  hosting service, you basically rent some space on a physical server where you can store all the files
+                  and data necessary for your website to work properly.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <!--contact-->
+  <section id="contact">
+    <div class="containe ">
+      <div class="row">
+        <div class="col-md-5 px-2 py-3">
+          <div class="card" style="width: 18rem;">
+            <img src="/devphoto.jpg" class="card-img" alt="Deventhira">
+            <div class="card-body">
+              <h2 class="card-title">DEVENTHIRA </h2>
+              <h4 class="work text-uppercase">web developer and web host</h4>
+              <p class="card-text">involing somone's physical presence rather than communication by phone , email.</p>
+              <a href="mailto:foursoftware.4@gmail.com"target="_blank" class=" btn btn-outline-warning">email</a>
+              <a href="https://wa.me/+919865238799?text=HI...FOUR SOFTWARE!" class="btn btn-outline-success" target="_blank">whatsapp</a>
+            </div>
+          </div>
+        </div>
+        <!--balaji-->
+        <div class="col-md-5 px-5 py-3 ">
+          <div class="card" style="width: 18rem;">
+            <img src="/balaji.jpg" class="card-img" alt="balaji">
+            <div class="card-body">
+              <h2 class="card-title">BALAJI </h2>
+              <h4 class="work">DESIGNER</h4>
+              <p class="card-text">involing somone's physical presence rather than communication by phone , email.</p>
+              <a href="mailto:foursoftware.4@gmail.com"target="_blank" class=" btn btn-outline-warning">email</a>
+              <a href="https://wa.me/+918124312297?text=HI...FOUR SOFTWARE!" class="btn btn-outline-success" target="_blank">whatsapp</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
   <footer>
     <div class="containe">
       <div class="row">
